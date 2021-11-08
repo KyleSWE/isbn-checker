@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Verify ISBN</title>
+</head>
+<body>
+    <div>
+        <nav>
+            <h1>
+                Check your ISBN
+            </h1>
+        </nav>
+
+        <div class="col brown-box"><!-------------------[brown box]---------------------->
+
+            <h4 id="h4-name">Enter ISBN-10 number below:</h4>
+
+            <!-------------------[form]---------------------->
+            <form name="myForm" action="" id="ISBN" onsubmit="getISBN();return false;" method="post">
+                <input type="text"name="sendISBN" placeholder="ISBN-10..." required>
+                <button type="submit" value="Submit">submit</button>
+            </form>
+
+        </div>
+        
+        <!-------------------[footer]---------------------->
+        <footer>
+            <p>
+                Copyright &copy; 2021 - ISBN Checker
+            </p>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!----  <div class="isbn-input">
+            <form name="myForm" action="" id="ISBN" onsubmit="getISBN()" method="post">
+                <input type="text"name="sendISBN" placeholder="ISBN-10..." required>
+                <input type="submit" value="Submit" class="btn btn-success">
+            </form>
+        </div> -->
+
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
